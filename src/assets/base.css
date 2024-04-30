@@ -35,7 +35,15 @@
 
   --section-gap: 160px;
 }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
+}
+a{
+  text-decoration: none;
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --color-background: var(--vt-c-black);
